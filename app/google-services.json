@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1033398016003",
+    "project_id": "absen-5ed4d",
+    "storage_bucket": "absen-5ed4d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033398016003:android:b24d586d165cb4d5d09636",
+        "android_client_info": {
+          "package_name": "com.example.absen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSe5xM1d6Fjr1_h03ZsTtheFrXtSjQcZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

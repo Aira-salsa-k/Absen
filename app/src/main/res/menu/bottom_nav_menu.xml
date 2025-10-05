@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/navigation_absen"
+        android:icon="@drawable/ic_check"
+        android:title="Absen" />
+
+    <item
+        android:id="@+id/navigation_rekap"
+        android:icon="@drawable/ic_report"
+        android:title="Rekap" />
+
+    <item
+        android:id="@+id/navigation_siswa"
+        android:icon="@drawable/ic_people"
+        android:title="Siswa" />
+
+</menu>

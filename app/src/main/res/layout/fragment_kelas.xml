@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+<!--    <Button-->
+<!--        android:id="@+id/btnKelasX"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Kelas X"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnKelasXI"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Kelas XI"-->
+<!--        android:layout_marginTop="8dp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnKelasXII"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Kelas XII"-->
+<!--        android:layout_marginTop="8dp"/>-->
+
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/headerDataSiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Siswa"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <!-- Tombol Kelas -->
+        <Button
+            android:id="@+id/btnKelasX"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Kelas X"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnKelasXI"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Kelas XI"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnKelasXII"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Kelas XII"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+</LinearLayout>

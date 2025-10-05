@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Absen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="kelas_array">
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
+    </string-array>
+
+    <!-- Array untuk status absen -->
+    <string-array name="status_absen">
+        <item>Hadir</item>
+        <item>Izin</item>
+        <item>Alpha</item>
+    </string-array>
+</resources>

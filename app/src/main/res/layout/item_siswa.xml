@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/txtKelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas"/>
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/btnEdit"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:iconSize="24dp"-->
+<!--        app:iconTint="@color/yellow_500"-->
+<!--        android:backgroundTint="@color/yellow"-->
+<!--        android:src="@drawable/ic_edit"-->
+<!--        android:contentDescription="Edit"/>-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/btnDelete"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/ic_delete"-->
+<!--        app:iconSize="24dp"-->
+<!--        app:iconTint="@color/red_500"-->
+<!--         android:backgroundTint="@color/red"-->
+<!--        android:contentDescription="Hapus"/>-->
+
+    <ImageButton
+        android:id="@+id/btnEdit"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit"
+        android:backgroundTint="@color/yellow"
+        android:contentDescription="Edit"
+        android:layout_marginStart="16dp"
+        app:tint="@color/yellow_500" />
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:backgroundTint="@color/red"
+        android:contentDescription="Hapus"
+        app:tint="@color/red_500" />
+
+</LinearLayout>
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:padding="12dp"-->
+<!--    android:gravity="center_vertical"-->
+<!--    tools:ignore="ExtraText">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtNama"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="Nama Siswa"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtKelas"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Kelas"-->
+<!--        android:layout_marginEnd="16dp"/>-->
+
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/btnEdit"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Edit"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/btnDelete"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Hapus"/>&ndash;&gt;-->
+
+<!--    &lt;!&ndash; Edit Button dengan ikon &ndash;&gt;-->
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/btnEdit"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=""-->
+<!--        app:iconGravity="textStart"-->
+<!--        app:icon="@drawable/ic_edit"-->
+<!--        app:iconPadding="0px"-->
+<!--        android:padding="0dp"-->
+<!--        app:iconSize="24dp"-->
+<!--        app:iconTint="@color/yellow_500"-->
+<!--        app:minWidth="0dp"-->
+<!--        android:insetLeft="0dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:insetRight="0dp"-->
+<!--        android:insetTop="0dp"-->
+<!--        android:insetBottom="0dp"-->
+<!--        android:contentDescription="Edit siswa"-->
+<!--        android:backgroundTint="@color/yellow"/>-->
+
+<!--    &lt;!&ndash; Delete Button dengan ikon &ndash;&gt;-->
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/btnDelete"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=""-->
+<!--        app:icon="@drawable/ic_delete"-->
+<!--        app:iconGravity="textStart"-->
+<!--        app:iconTint="@color/red_500"-->
+<!--        android:insetLeft="1px"-->
+<!--        android:insetRight="1px"-->
+<!--        android:insetTop="1px"-->
+<!--        android:insetBottom="1px"-->
+<!--        app:minWidth="0dp"-->
+<!--        app:iconSize="24dp"-->
+<!--        app:iconPadding="0px"-->
+<!--        android:padding="0px"-->
+<!--        android:contentDescription="Hapus siswa"-->
+<!--        android:backgroundTint="@color/red"/>-->
+
+
+
+<!--</LinearLayout>-->
